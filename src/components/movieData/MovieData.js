@@ -28,10 +28,14 @@ console.log(movies)
     return (
         <article className='container'>
             <div className='buttonContainer'>
+                <h1>MovieDatabase</h1>
+                <div>
                 <button onClick={() => setSorting('year')}>Sort by year</button>
                 <button onClick={() => setSorting('rating')}>Sort by rating</button>
                 <button onClick={() => setSorting('a-z')}>A - Z</button>
                 <button onClick={() => setSorting('z-a')}>Z - A</button>
+                </div>
+
             </div>
                 
             

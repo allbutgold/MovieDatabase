@@ -10,6 +10,9 @@
     align-items: center;
     flex-direction: column-reverse;
 }
+.header {
+
+}
 
 .container {
     display: flex;
@@ -19,12 +22,22 @@
 
 .buttonContainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
-    margin: 100px auto;
+    height: 40px;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: aliceblue;
+}
+
+.buttonContainer h1{
+    width: 600px;
 }
 .buttonContainer button {
-    margin-left: 10px;
+    height: 25px;
+    margin-left: 15px;
 }
 
 .movieContainer {
