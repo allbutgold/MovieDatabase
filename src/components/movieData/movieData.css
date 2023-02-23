@@ -9,9 +9,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
+    background-color: rgba(43, 5, 79, 0.593);
 }
-.header {
-
+.buttons  {
+    display: flex;;
 }
 
 .container {
@@ -25,7 +26,7 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 40px;
+    height: 60px;
     position: sticky;
     top: 0;
     background-color: black;
@@ -34,10 +35,18 @@
 
 .buttonContainer h1{
     width: 600px;
+    font-size: 3em;
 }
+
 .buttonContainer button {
     height: 25px;
     margin-left: 15px;
+    border-radius: 5px;
+    border: 1px solid black;;
+    background-color: rgba(128, 8, 241, 0.593);
+    padding: 0 8px 0 8px;
+    font-size: 1.2em;
+    color: white;;
 }
 
 .movieContainer {
@@ -45,6 +54,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
 }
 
 .movieCard {
@@ -54,6 +64,8 @@
     width: 200px;
     min-height: 300px;
     padding: 10px;
+    border-radius: 15px;
+    border: 2px solid black;
 }
 
 .movieCard p {
